@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Belajar Web</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1><strong>💻🧠 PENGENALAN HTML DAN CASCADING STYLE SHEET (CSS)</strong></h1>
+
+
+
+        <p><i>Code Your World: Jelajahi Dunia HTML dan Cascading Style Sheet</i></p>
+        <p><b>WebSite Ini Merupakan Implementasi dari Materi bab 1-6</b> </p>
+        <p>Di Buat Untuk Melengkapi Tugas UTS Mata Kuliah Bahasa Pemograman</p>
+        <nav>
+            <a href="#tentang">🏠 Tentang</a>
+            <a href="#formulir">📄 Formulir</a>
+            <a href="#kontak">📬 Kontak</a>
+        </nav>
+
+        <marquee behavior="scroll" direction="left" class="running-text">
+            من جدّ وجد، ومن زرع حصد &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            من جدّ وجد، ومن زرع حصد &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            من جدّ وجد، ومن زرع حصد
+        </marquee>
+    </header>
+
+    <section id="tentang">
+        <h2>Tentang Website</h2>
+        <form action="">
+            <ul>
+                <li> <strong>HTML</strong><br>HTML adalah bahasa markah yang digunakan untuk menyusun struktur dan
+                    konten dasar pada halaman web.</li>
+                <p>Materi yang di bahas adalah sebagai berikut:</p>
+                <ol><i>
+                        <li>Pengenalan HTML</li>
+                        <li>Heading, Paragraf, List & Image</li>
+                        <li>Hyperlink & Form Pada HTML</li>
+                        <li>Membuat Tabel & Layout Web Page</li>
+                    </i>
+
+                </ol>
+                <li><strong>CSS</strong><br>CSS adalah bahasa gaya (style sheet) yang digunakan untuk mengatur tampilan
+                    atau desain halaman web (yang dibuat dengan HTML).</li>
+                <p>Materi yang di bahas adalah sebagai berikut:</p>
+                <ol><i>
+                        <li>Pengenalan Cascading Style Sheet (Css)</li>
+                        <li>Mengatur Font, Format Teks, Mengubah List Dan Mengatur Border Dengan Css</li>
+                    </i></ol>
+
+            </ul>
+
+
+            <img src="logo_html_css.png" alt="Ilustrasi belajar web" width="400">
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+
+    <section id="formulir">
+        <h2>Formulir Pendaftaran</h2>
+        <form>
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+
+            <label for="email">Email Aktif:</label>
+            <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+
+            <label for="hobi">Jurusan:</label>
+            <select id="hobi" name="hobi">
+                <option value="Rekayasa Perangkat Lunak">💻Rekayasa Perangkat Lunak</option>
+                <option value="Artificial Intelligence">🤖 Artificial Intelligence</option>
+                <option value="Jaringan ">🌐 Jaringan </option>
+
+            </select>
+
+            <button type="submit">✅ Kirim</button>
+            <button type="reset">🔄 Reset</button>
+        </form>
+    </section>
+
+    <section id="kontak">
+        <form action="">
+            <h2>Identitas Mahasiswa</h2>
+            <P>Nama: Hadi Putra</P>
+            <P>NIM: 312210006</P>
+            <P>Kelas: TI.22.C1</P>
+            <p>📞 No Handphone: 085609090115</p>
+            <p>📧 Email: <a href="hadiputra6464@gmail.com">hadiputra6464@gmail.com</a></p>
+            <p>Link Login ecampus universitas pelita bangsa: <a href="https://ecampus.pelitabangsa.ac.id/pb/login"
+                    target="_blank">Universitas Pelita Bangsa</a></p>
+
+
+
+        </form>
+    </section>
+
+    <footer>
+        <marquee behavior="scroll" direction="left" class="running-text">
+            © 2025 Website Pemrograman — Universitas Pelita Bangsa !!! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            © 2025 Website Pemrograman — Universitas Pelita Bangsa !!! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            © 2025 Website Pemrograman — Universitas Pelita Bangsa !!!
+        </marquee>
+
+    </footer>
+
+</body>
+
+</html>
